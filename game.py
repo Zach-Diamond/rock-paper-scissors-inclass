@@ -9,7 +9,17 @@ print("YOU CHOSE: ",user_choice)
 
 # Validating  Inputs
 
+options = ['rock','paper','scissors']
+
+if user_choice.lower() in options:
+    user_choice
+else:
+    print("That's an invalid choice. Try again.")
+    exit()
+
 # Generate Computer Selection
+
+print("Generating...")
 
 # Determine Winner
 
